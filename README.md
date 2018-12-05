@@ -4,4 +4,5 @@ Repositório contendo um simples projeto Android com foco em introduzir a plataf
 
 ### Slides
 https://speakerdeck.com/jcaiqueoliveira/introducao-ao-android
+
 https://speakerdeck.com/jcaiqueoliveira/kotlin-por-onde-comecar
