@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="img_height">60dp</dimen>
+    <dimen name="img_width">60dp</dimen>
+
+    <dimen name="margin_top_item_trend">8dp</dimen>
+    <dimen name="margin_bottom_item_trend">8dp</dimen>
+    <dimen name="item_default_margin">8dp</dimen>
+
+    <dimen name="item_detail_title">18sp</dimen>
+    <dimen name="item_detail_description">14sp</dimen>
+</resources>

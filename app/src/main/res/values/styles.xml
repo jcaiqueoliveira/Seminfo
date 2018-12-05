@@ -1,11 +1,35 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- This configures the styles for the name within the Toolbar  -->
+    <style name="TitleText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginStart">@dimen/item_default_margin</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DescriptionText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginStart">@dimen/item_default_margin</item>
+    </style>
+
+    <style name="ChipLayout" parent="Base.Widget.MaterialComponents.Chip">
+        <item name="chipBackgroundColor">@android:color/transparent</item>
+        <item name="chipStrokeColor">@android:color/darker_gray</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="iconStartPadding">6dp</item>
+        <item name="android:enabled">false</item>
+        <item name="android:layout_marginEnd">4dp</item>
     </style>
 
 </resources>

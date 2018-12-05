@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/item_default_margin">
+
+    <View
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:text="Square/Retrofit"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="@dimen/item_default_margin"
+    />
+
+    <View
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/name"
+            android:layout_marginBottom="@dimen/item_default_margin"
+            android:background="@android:color/darker_gray"/>
+
+    <View
+            android:id="@+id/stars"
+            android:background="@android:color/darker_gray"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="@dimen/item_default_margin"
+            android:layout_below="@id/description"
+    />
+
+    <View
+            android:id="@+id/watchers"
+            android:background="@android:color/darker_gray"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@id/stars"
+            android:layout_marginEnd="@dimen/item_default_margin"
+            android:layout_below="@id/description"
+    />
+
+    <View
+            android:id="@+id/forks"
+            android:background="@android:color/darker_gray"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/description"
+            android:layout_toEndOf="@id/watchers"/>
+
+</RelativeLayout>
