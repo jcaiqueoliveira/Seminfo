@@ -7,6 +7,9 @@ import retrofit2.http.Path
 import sample.caique.seminfo.response.Issues
 import sample.caique.seminfo.response.Repository
 
+/**
+ * https://www.infoq.com/br/articles/rest-introduction
+ */
 interface GithubClient {
 
     @Headers("Accept: application/vnd.github.mercy-preview+json")
